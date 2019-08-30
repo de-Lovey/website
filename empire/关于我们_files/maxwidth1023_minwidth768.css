@@ -1,0 +1,330 @@
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .side_menu {
+        width: 13rem;
+    }
+    .logo {
+        font-size: 12rem;
+    }
+    .menu_icon {
+        font-size: 55px;
+    }
+    /*首页第一屏*/
+    .empire_outer {
+        width: 230px;
+        height: 230px;
+        margin-left: -115px;
+    }
+    .active .empire_outer {
+        margin-top: -115px;
+    }
+    .empire span {
+        display: block;
+        font-size: 100px;
+        color: #333;
+        margin-top: 6px;
+    }
+    .empire i {
+        display: block;
+        position: relative;
+        font-size: 22px;
+        font-weight: 500;
+        top: -30px;
+    }
+    .empire_item {
+        width: 120px;
+        height: 120px;
+        margin-top: -60px;
+    }
+    /*首页第二屏*/
+    .common_tit_en {
+        width: 90%;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        margin: auto;
+        font-size: 60px;
+        position: absolute;
+        top: -80px;
+        left: 50%;
+        margin-left: -45%;
+    }
+    .common_tit_cn {
+        width: 80%;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin: auto;
+        font-size: 22px;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        margin-left: -40%;
+    }
+    .active .common_tit_cn {
+        top: 170px;
+    }
+    /*六边形开始*/
+    .six_bg {
+        display: block;
+        width: 154px;
+        height: 134px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -67px;
+    }
+    .six_bg i {
+        display: inline-block;
+        font-size: 60px;
+        color: #333;
+        /*float: left;*/
+        /*clear: both;*/
+        position: relative;
+        margin: 35px auto;
+    }
+    .six_bg p {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 25px;
+        /*float: left;*/
+    }
+    /*圆形开始*/
+    .circle_bg {
+        display: block;
+        width: 154px;
+        height: 154px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -77px;
+    }
+    .circle_bg i {
+        display: inline-block;
+        font-size: 50px;
+        color: #333;
+        /*float: left;*/
+        /*clear: both;*/
+        position: relative;
+        margin: 30px auto 0;
+    }
+    .circle_bg p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 14px;
+        /*float: left;*/
+    }
+    /*第六屏*/
+    .section6 .circle_bg {
+        width: 154px;
+        height: 154px;
+        background-size: cover;
+    }
+    .section6 .circle_bg p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 36px;
+        color: #333;
+        /*float: left;*/
+    }
+    /*联系我们*/
+    .contact_pic {
+        width: 80%;
+    }
+    .design_box {
+        width: 86%;
+    }
+    /*招聘*/
+    .left_bar .join_items {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .side_menu {
+        width: 13rem;
+    }
+    .logo {
+        font-size: 10rem;
+    }
+    .menu_icon {
+        font-size: 50px;
+    }
+    /*首页第一屏*/
+    .empire_outer {
+        width: 180px;
+        height: 180px;
+        margin-left: -90px;
+    }
+    .active .empire_outer {
+        margin-top: -90px;
+    }
+    .empire span {
+        display: block;
+        font-size: 70px;
+        color: #333;
+        margin-top: 6px;
+    }
+    .empire i {
+        display: block;
+        position: relative;
+        font-size: 16px;
+        font-weight: 500;
+        top: -20px;
+    }
+    .empire_item {
+        width: 90px;
+        height: 90px;
+        margin-top: -45px;
+    }
+    .empire_item a i {
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 25px;
+    }
+    /*首页第二屏*/
+    .common_tit_en {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        margin: auto;
+        font-size: 40px;
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        margin-left: -50%;
+    }
+    .common_tit_cn {
+        width: 100%;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin: auto;
+        font-size: 18px;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        margin-left: -50%;
+    }
+    .active .common_tit_cn {
+        top: 150px;
+    }
+    /*六边形开始*/
+    .six_bg {
+        display: block;
+        width: 114px;
+        height: 100px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+    }
+    .six_bg i {
+        display: inline-block;
+        font-size: 50px;
+        color: #333;
+        /*float: left;*/
+        /*clear: both;*/
+        position: relative;
+        margin: 20px auto;
+    }
+    .six_bg p {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+        /*float: left;*/
+    }
+    /*圆形开始*/
+    .circle_bg {
+        display: block;
+        width: 114px;
+        height: 114px;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        margin-top: -57px;
+    }
+    .circle_bg i {
+        display: inline-block;
+        font-size: 50px;
+        color: #333;
+        position: relative;
+        margin: 30px auto 0;
+    }
+    .circle_bg p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 50px;
+        color: #fff;
+    }
+    /*第六屏*/
+    .section6 .circle_bg {
+        width: 104px;
+        height: 104px;
+        background-size: cover;
+    }
+    .section6 .circle_bg i {
+        display: inline-block;
+        font-size: 50px;
+        color: #333;
+        position: relative;
+        margin: 25px auto 0;
+    }
+    .section6 .circle_bg p {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 50px;
+        color: #333;
+    }
+    /*联系我们*/
+    .contact_tit span {
+        font-size: 24px;
+        position: relative;
+    }
+    .contact_tit span:after {
+        left: 48px;
+    }
+    .contact_tit i {
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .contact_pic {
+        width: 78%;
+    }
+    .left_bar .contact_items li>a h5 i {
+        font-size: 40px;
+    }
+    .left_bar .contact_items li>a h6 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    /*招聘*/
+    .left_bar .join_items {
+        width: 80%;
+        margin: auto;
+    }
+    /*关于我们*/
+    .left_bar_items {
+        padding-bottom: 40px;
+    }
+    .about_list {
+        justify-content: flex-start;
+    }
+    .map_right img {
+        width: 90%;
+    }
+    .design_box {
+        width: 84%;
+    }
+    .about_map {
+        width: 80%;
+    }
+    .about_brand {
+        width: 80%;
+    }
+    .brand_list {
+        width: 90%;
+    }
+}

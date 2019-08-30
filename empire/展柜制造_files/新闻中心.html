@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://www.empire168.com/indexController.do?news -->
+<html lang="zh-cn" class="fp-enabled" style="overflow: hidden; height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon/" href="http://www.empire168.com/plug-in/0epe/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./新闻中心_files/iconfont.css">
+    <link rel="stylesheet" href="./新闻中心_files/common.css">
+    <link rel="stylesheet" href="./新闻中心_files/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="./新闻中心_files/minwidth1024.css">
+    <link rel="stylesheet" type="text/css" href="./新闻中心_files/maxwidth1023_minwidth768.css">
+    <link rel="stylesheet" type="text/css" href="./新闻中心_files/maxwidth767.css">
+    <script type="text/javascript" src="./新闻中心_files/jquery-1.11.1.min.js.下载"></script>
+    <script type="text/javascript" src="./新闻中心_files/jquery.fullPage.js.下载"></script>
+    <script type="text/javascript" src="./新闻中心_files/jquery.slimscroll.min.js.下载"></script>
+    <script type="text/javascript" src="./新闻中心_files/0f_news.js.下载"></script>
+    <title>恩派尔</title>
+</head>
+
+<body class="fp-viewing-page1" style="overflow: hidden; height: 100%;">
+    <div class="side_menu show_side_menu">
+        <div class="side_nv_items">
+            <i class="iconfont"></i>
+            <a href="http://www.empire168.com/indexController.do?_index" class="logo iconfont"></a>
+            <ul class="side_menu_list">
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?about" class="Animation">关于我们</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?contact" class="Animation">联系我们</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?news" class="Animation">新闻中心</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?join" class="Animation">人才招聘</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?vi" class="Animation">VI策划</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?space" class="Animation">空间设计</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?showcase" class="Animation">展柜制造</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?exhibit" class="Animation">陈列设计</a></li>
+                <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?decorate" class="Animation">装饰工程</a></li>
+            </ul>
+            <em class="iconfont close" id="close"></em>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(".menu_icon").click(function() {
+        $(".header").animate({
+            left: 0
+        }, 500);
+    })
+    $("#close").click(function() {
+        $(".header").animate({
+            left: "-60%"
+        }, 300);
+    })
+    </script>
+    <div class="header">
+<div class="side_menu">
+    <div class="side_nv_items">
+        <i class="iconfont"></i>
+        <a id="shouye1" href="http://www.empire168.com/indexController.do?_index&amp;terminal=pc" class="logo iconfont"></a>
+        <ul class="side_menu_list">
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?about" class="Animation">关于我们</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?contact" class="Animation">联系我们</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?news" class="Animation">新闻中心</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?join" class="Animation">人才招聘</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?vi" class="Animation">VI策划</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?space" class="Animation">空间设计</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?showcase" class="Animation">展柜制造</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?exhibit" class="Animation">陈列设计</a></li>
+            <li><span class="b_radius_half"></span><a href="http://www.empire168.com/indexController.do?decorate" class="Animation">装饰工程</a></li>
+        </ul>
+        <em class="iconfont close" id="close"></em>
+    </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	if($(window).width() < 767){
+		$("#shouye1").attr("href","indexController.do?_index&terminal=phone");
+	}else{
+		$("#shouye1").attr("href","indexController.do?_index&terminal=pc");
+	}
+	$(".menu_icon").click(function() {
+	    $(".header").animate({
+	        left: 0
+	    }, 500);
+	})
+	$("#close").click(function() {
+	    $(".header").animate({
+	        left: "-60%"
+	    }, 300);
+	})
+});
+</script>
+<div class="phone_menu">
+    <div class="phone_menu_tit">
+        <a id="shouye2" href="http://www.empire168.com/indexController.do?_index&amp;terminal=pc" class="iconfont"></a>
+        <span class="iconfont" id="phone_icon"></span>
+    </div>
+    <div class="phone_menu_list">
+        <a href="http://www.empire168.com/indexController.do?about" class="Animation">关于我们</a>
+        <a href="http://www.empire168.com/indexController.do?contact" class="Animation">联系我们</a>
+        <a href="http://www.empire168.com/indexController.do?news" class="Animation">新闻中心</a>
+        <a href="http://www.empire168.com/indexController.do?join" class="Animation">人才招聘</a>
+        <a href="http://www.empire168.com/indexController.do?vi" class="Animation">VI策划</a>
+        <a href="http://www.empire168.com/indexController.do?space" class="Animation">空间设计</a>
+        <a href="http://www.empire168.com/indexController.do?showcase" class="Animation">展柜制造</a>
+        <a href="http://www.empire168.com/indexController.do?exhibit" class="Animation">陈列设计</a>
+        <a href="http://www.empire168.com/indexController.do?decorate" class="Animation">装饰工程</a>
+    </div>
+</div>
+<script type="text/javascript">
+	if($(window).width() < 767){
+		$("#shouye2").attr("href","indexController.do?_index&terminal=phone");
+	}else{
+		$("#shouye2").attr("href","indexController.do?_index&terminal=pc");
+	}
+    $("#phone_icon").click(function(){
+        $(".phone_menu_list").slideToggle();
+    })
+	$(document).ready(function (){
+    	if($(window).width() <= 767){ //手机终端
+        	
+        }else{ 
+        	$("#_tool_tips").show();
+        }
+    });    
+</script>
+
+<ul id="_tool_tips" class="tool_tips" style="">
+   <li>
+      <a href="javascript:void(0);" class="iconfont"></a>
+      <div class="hide_tip hide_tip_first Animation">电话：<a href="tel:13901817657">13901817657</a></div>
+   </li>
+   <li>
+      <a href="javascript:void(0);" class="iconfont"></a>
+      <div class="hide_tip Animation">地址：<a href="tel:13901817657">上海市嘉定区翔江公路2318号</a></div>
+   </li>
+   <li>
+      <a href="javascript:void(0);" class="iconfont"></a>
+      <div class="hide_tip erweima_tip Animation"><a href="javascript:void(0);"><img src="./新闻中心_files/erweima.jpg"></a></div>
+   </li> 
+</ul></div>
+    <div id="fullPage" class="fullpage-wrapper" style="height: 100%; position: relative; touch-action: none; transform: translate3d(0px, 0px, 0px);">
+        
+        <div class="section fp-section active" data-anchor="page1" style="height: 577px;"><div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 577px;"><div class="fp-scrollable" style="overflow: hidden; width: auto; height: 577px;">
+            <div class="contact_bar">
+                <div class="left_bar">
+                    <div class="left_bar_items">
+                        <h2 class="contact_tit Animation_slow_inner" style="left: 0px; opacity: 1;"><span>新闻中心</span><i>NEWS&nbsp; CENTER</i></h2>
+                        <img src="./新闻中心_files/contact_pic1.png" class="contact_pic Animation_slow_inner" style="left: 0px; opacity: 1;">
+                        <ul id="content" class="common_items news_items Animation_slow_inner" style="left: 0px; opacity: 1;"><li><a href="http://www.empire168.com/indexController.do?newsDetail&amp;id=8aafd7465c9cfd5f015ca41b50940077" class="contact_dial"><i></i><span class="text_ellipsis">关于LOGO——那些令人惊叹的演变</span><em class="news_time">2017-06-14</em></a></li><li><a href="http://www.empire168.com/indexController.do?newsDetail&amp;id=8aafd7465c170967015c190607870005" class="contact_dial"><i></i><span class="text_ellipsis">时光也可以倒流</span><em class="news_time">2017-05-18</em></a></li><li><a href="http://www.empire168.com/indexController.do?newsDetail&amp;id=8aafd7465a3d5fb3015a3f4f99b30002" class="contact_dial"><i></i><span class="text_ellipsis">虐狗节，我收到一份神奇的表白</span><em class="news_time">2017-02-15</em></a></li><li><a href="http://www.empire168.com/indexController.do?newsDetail&amp;id=8aafd7465870336401589918ab5e0088" class="contact_dial"><i></i><span class="text_ellipsis">因为有你，心存感激</span><em class="news_time">2016-11-25</em></a></li><li><a href="http://www.empire168.com/indexController.do?newsDetail&amp;id=8aafd74658208e9d0158229770460001" class="contact_dial"><i></i><span class="text_ellipsis">崇明之旅，恩派尔一家亲</span><em class="news_time">2016-11-02</em></a></li><li><a href="http://www.empire168.com/indexController.do?newsDetail&amp;id=8aafd746581027c30158189c69ed0006" class="contact_dial"><i></i><span class="text_ellipsis">神指引：魔都烘焙考察攻略</span><em class="news_time">2016-10-31</em></a></li></ul>
+                        <div class="page_num Animation_slow_inner" style="left: 0px; opacity: 1;">
+                            <a href="javascript:void(0);" id="pre" class="pre iconfont page_until"></a>
+                            <!-- <a href="javascript:void(0);" class="curr_a">1</a>
+                            <a href="javascript:void(0);">2</a>
+                            <a href="javascript:void(0);">3</a> -->
+                            <a href="javascript:void(0);" id="next" class=" next iconfont"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_bar Animation_slow_inner" style="right: 0px; opacity: 1;"><img src="./新闻中心_files/contact.jpg"></div>
+            </div>
+            <div class="footer">
+<div class="foot_bar">
+    <div class="layout">
+        <div class="copy">
+            ©2016&nbsp; 沪ICP备08103200号-2 
+            <span>Shang&nbsp; Hai &nbsp;Empire&nbsp;</span>
+            <font class="support"><span>技术支持：</span><a href="http://kinglink.cc/">Kinglink</a></font><script language="javascript" type="text/javascript" src="./新闻中心_files/f.txt"></script><a href="https://www.51.la/?comId=19064450" title="51.La 网站流量统计系统" target="_blank"><span style="display:inline-block;background-color:#3F51B5;color:#fff;padding:2px 5px;font-family:arial;font-size:12px;font-weight:bold;">51La</span></a>
+
+        </div>
+       <!--  <div class="address">
+            <span>联系地址：</span><a href="" target="_blank">上海市&nbsp; 嘉定区  &nbsp;翔江公路2318 号（近曹安公路） </a><span>手机：</span><a href="tel:13901817657">13901817657</a><span>(刘洁)&nbsp;&nbsp;</span>
+            <span>技术支持：</span><a href="http://kinglink.cc">Kinglink（品牌官网定制）</a>
+        </div> -->
+    </div>
+</div>
+<script>
+$(document).ready(function(){
+$(".footer img").css("margin","0 0 -5px 10px");
+})
+</script></div>
+        </div><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 10px; position: absolute; top: 0px; opacity: 0.4; display: block; border-radius: 7px; z-index: 99; right: 1px; height: 365.454px;"></div><div class="slimScrollRail" style="width: 10px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div></div>
+    </div>
+    <script type="text/javascript">
+    
+    $(function() {
+
+        // 菜单
+        $("#fullPage").fullpage({
+            resize: true,
+            verticalCentered: false,
+            fixedElements: ".menu_icon",
+            anchors: ['page1'],
+            navigation: false,
+            slidesNavigation: true,
+            controlArrowColor: "#f62929",
+            css3: true,
+            responsiveHeight: "100px",
+            autoScrolling: true,
+            scrollOverflow: true,
+            afterRender: function() {
+                $(".contact_tit").css({
+                    left: "0",
+                    opacity: "1",                    
+                });
+                $(".contact_pic").css({
+                    left: "0",
+                    opacity: "1",                    
+                });                
+                $(".common_items").css({
+                    left: "0",
+                    opacity: "1",                    
+                });
+                $(".page_num").css({
+                    left: "0",
+                    opacity: "1",                    
+                });
+                $(".right_bar").css({
+                    right: "0",
+                    opacity: "1",                    
+                });
+            }
+        });
+    });
+    </script>
+
+
+
+<span class="iconfont menu_icon"></span></body></html>

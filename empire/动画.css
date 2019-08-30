@@ -1,0 +1,39 @@
+.about_list Animation_slow_inner{
+    animation: move 2s linear forwards;
+}
+.about_map Animation_slow_inner{
+    animation: move 2s linear forwards;
+}
+.about_brand Animation_slow_inner{
+    animation: move 2s linear forwards;
+}
+.contact_tit Animation_slow_inner{
+    animation: move 2s linear forwards;
+}
+.about_tit Animation_slow_inner{
+    animation: move 2s linear forwards;
+}
+@keyframes move {
+    from{
+        left: -450px;
+        opacity: 0;
+    }
+    to{
+        left:0px;
+        opacity: 1;
+    }
+}
+.right_bar Animation_slow_inner{
+    animation: moveRight 2s linear forwards;
+}
+
+@keyframes moveRight {
+    from{
+        right: -400px;
+        opacity: 0;
+    }
+    to{
+        right:0px;
+        opacity: 1;
+    }
+}
